@@ -1,0 +1,60 @@
+/* 
+这是一段注释 
+*/
+html{
+  background-color: lightblue;
+  text-align: center;
+}
+
+body{
+  border: 1px solid white;
+}
+
+h1{
+  border: 5px solid DodgerBlue;
+  height: 150px;
+  color: aquamarine;
+  background-image: url("../images/3.jpg");
+  background-size: 150px 150px;
+}
+
+#自我介绍{
+  font-size: 15px;
+}
+
+#安达与岛村{
+  text-align: left;
+  margin: 0 auto;
+  border: 5px solid rgb(145, 145, 240);
+}
+
+#图片变化{
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  margin: 10px auto;
+  border: 5px solid rgb(145, 145, 240);
+  background-image: url("../images/1.jpg");
+  background-size: 300px 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#图片变化:hover{
+  background-image: url("../images/2.jpg");
+}
+#图片变化:active{
+  background-image: url("../images/3.jpg");
+}
+
+.picture{
+  width: 150px; 
+  height: 150px;
+}
+
+
+li{
+  text-align: left;
+}
+
+
