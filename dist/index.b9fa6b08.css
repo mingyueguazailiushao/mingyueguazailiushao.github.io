@@ -1,0 +1,131 @@
+html {
+  background-color: #ffc;
+  font-family: STKaiti;
+  font-size: 10px;
+}
+
+body {
+  grid-template-areas: "header header"
+                       "nav nav"
+                       "main main"
+                       "footer footer";
+  gap: 10px;
+  display: grid;
+}
+
+header {
+  grid-area: header;
+}
+
+header :first-child {
+  text-align: center;
+  color: #9cf;
+  font-size: 3.2em;
+}
+
+nav {
+  background-image: linear-gradient(to bottom right, #add8e6, pink);
+  border-radius: 10px;
+  grid-area: nav;
+}
+
+li {
+  font-size: 3.2em;
+  display: inline;
+}
+
+.link {
+  color: #09c;
+  background-color: bisque;
+  border-radius: 10px;
+  outline: none;
+  margin-right: 30px;
+  padding: 12px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+main {
+  grid-area: main;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "article aside"
+                       "sakura sakura"
+                       "pictures pictures";
+  gap: 10px;
+  display: grid;
+}
+
+footer {
+  background-color: #ccf;
+  grid-area: footer;
+  font-size: 1.6em;
+}
+
+article {
+  text-indent: 2em;
+  text-align: justify;
+  background-image: linear-gradient(to bottom right, #add8e6, pink);
+  grid-area: article;
+  padding: 5px;
+  font-size: 1.6em;
+}
+
+.article.dczr {
+  color: #ff9;
+  text-align: center;
+}
+
+.article.jidian {
+  float: inline-start;
+  inline-size: 20vw;
+  margin-inline-end: 20px;
+}
+
+.article.clear {
+  clear: both;
+}
+
+.article.taoyan {
+  float: inline-end;
+  inline-size: 25vw;
+  margin-inline-start: 20px;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.sakura {
+  text-align: center;
+  color: #9cf;
+  grid-area: sakura;
+  font-size: 2.4em;
+}
+
+.pictures {
+  text-align: left;
+  background: linear-gradient(to bottom right, #add8e6, pink);
+  grid-area: pictures;
+  font-size: 0;
+}
+
+video {
+  inline-size: 360px;
+}
+
+.picture {
+  block-size: 256px;
+}
+
+.link:hover {
+  background-color: pink;
+}
+
+.link:active {
+  color: #fff;
+}
+
+.picture:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.b9fa6b08.css.map */
